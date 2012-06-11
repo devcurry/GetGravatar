@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+<div>
+    <div>
+        <button id="addNew" value="Click to Add a Contact">
+            Click to Add a Contact
+        </button>
+    </div>
+</div>
+<div style="border: 1px solid gray; text-align: left">
+    <div style="border: 1px solid #FEFEFE; text-align: left; padding: 10px">
+        <h2>
+            Contact List</h2>
+    </div>
+    <div>
+        <ul id="contactList" style="list-style: none; border:1px solid #F0F0F0;">
+        </ul>
+    </div>
+</div>
+<div id="addContactPopup" style="text-align: left">
+    <div>
+        <div style="display: inline-block; width: 200px">
+            Name
+        </div>
+        <div style="display: inline-block">
+            <input type="text" name="nameText" id="nameText" value=" " />
+        </div>
+    </div>
+    <div>
+        <div style="display: inline-block; width: 200px">
+            Address
+        </div>
+        <div style="display: inline-block">
+            <input type="text" name="addressText" id="addressText" value=" " />
+        </div>
+    </div>
+    <div>
+        <div style="display: inline-block; width: 200px">
+            Email
+        </div>
+        <div style="display: inline-block">
+            <input type="text" name="emailText" id="emailText" value=" " />
+        </div>
+    </div>
+</div>
